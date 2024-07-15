@@ -61,18 +61,7 @@ function command() {
        window.location.href = 'https://www.iloveimg.com/crop-image'
     }
   }
-  <body>
-  <a href="https://youtube.com/playlist?list=PLgjO9pEuiAo5sA2RB5M3740qZyg2_WZGz&si=sMW2DpENFp_H5sT0">NeuroFm</a>
-  <button oncllick="gotoLink(this)" value="https://youtube.com/playlist?list=PLgjO9pEuiAo5sA2RB5M3740qZyg2_WZGz&si=sMW2DpENFp_H5sT0">NeuroFm</button>
- 
-  <scrpit>
-    function gotoLink(link){
-      console.log(link.value);
-      location.href = link.value;
-    }
-  </scrpit>
-  </body>
-
+  
   function search () {
     let search = document.getElementById('search');
     window.location.href="https://www.startpage.com/do/dsearch?q="+search.value
@@ -93,3 +82,14 @@ function command() {
     document.getElementById('clock').textContent = time;
   }
   setInterval(updateClock, 10);
+  
+  <body>
+  <a href="https://youtube.com/playlist?list=PLgjO9pEuiAo5sA2RB5M3740qZyg2_WZGz&si=sMW2DpENFp_H5sT0">NeuroFm</a>
+  <button oncllick="gotoLink(this)" value="https://youtube.com/playlist?list=PLgjO9pEuiAo5sA2RB5M3740qZyg2_WZGz&si=sMW2DpENFp_H5sT0">NeuroFm</button>
+ 
+  <scrpit>
+    function gotoLink(link){
+      console.log(link.value)
+    }
+  </scrpit>
+  </body>
